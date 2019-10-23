@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1175" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1175" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:25Z">
+      <class name="Simple.SimpleTest.TestExtentReports1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="beforeTest" is-config="true" duration-ms="437" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFail status=FAILURE method=TestExtentReports1.testFail()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testFail()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="testFail" duration-ms="8" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at Simple.SimpleTest.TestExtentReports1.testFail(TestExtentReports1.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFail -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="afterMethod" is-config="true" duration-ms="19" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFail status=FAILURE method=TestExtentReports1.testFail()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPass status=SUCCESS method=TestExtentReports1.testPass()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testPass()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="testPass" duration-ms="1" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPass status=SUCCESS method=TestExtentReports1.testPass()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSkip status=SKIP method=TestExtentReports1.testSkip()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSkip()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="testSkip" duration-ms="1" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped
+at Simple.SimpleTest.TestExtentReports1.testSkip(TestExtentReports1.java:74)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkip -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="afterMethod" is-config="true" duration-ms="5" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSkip status=SKIP method=TestExtentReports1.testSkip()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Simple.SimpleTest.TestExtentReports1@6d4b1c02]" name="afterTest" is-config="true" duration-ms="657" started-at="2019-10-22T11:02:24Z" finished-at="2019-10-22T11:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Simple.SimpleTest.TestExtentReports1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

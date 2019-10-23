@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  	<groups>
+  		<run>
+  			<include name="grp1"></include>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="Simple.SimpleTest.Test4"></class>
+      <class name="Simple.SimpleTest.TestNg7">      	
+    </class>      	
+    </classes>
+  </test> <!-- Test -->
+  <!--<test name="Test1"> 
+  	
+    <classes>
+      <class name="Simple.SimpleTest.Test4"></class>
+      <class name="Simple.SimpleTest.TestNg7">
+      	<methods>
+      		<include name="test1"></include>
+      	</methods>
+      </class>      	
+    </classes>
+  </test>--> <!-- Test -->
+</suite> <!-- Suite -->
